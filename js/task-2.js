@@ -27,3 +27,17 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+
+const galleryList = document.querySelector('ul.gallery');
+
+// Створення HTML-коду для галереї
+const galleryItems = images.map(image => {
+  return `<li><img src="${image.url}" alt="${image.alt}" width = 360 height = 300
+  ></li>`;
+}).join('');
+
+// Додавання галереї в DOM за одну операцію
+galleryList.insertAdjacentHTML('beforeend', galleryItems);
+
+
