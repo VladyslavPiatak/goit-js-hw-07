@@ -1,6 +1,8 @@
 const loginForm = document.querySelector('.login-form');
 
-loginForm.addEventListener('submit', function (event) {
+loginForm.addEventListener('submit', registrForm);
+
+function registrForm (event) {
     event.preventDefault();
 
     const email = loginForm.elements.email.value.trim();
@@ -18,5 +20,4 @@ loginForm.addEventListener('submit', function (event) {
 
     console.log(formData);
     loginForm.reset();
-});
-
+}

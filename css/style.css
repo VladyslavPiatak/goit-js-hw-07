@@ -92,3 +92,85 @@ input {
     color: #fff;
     transition: 0.3s ease-in-out;
 }
+
+.login-form button:hover{
+    background-color: #6C8CFF;
+}
+
+.change-color {
+    width: 148px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #4e75ff;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.change-color:hover {
+    background-color: #6C8CFF;
+}
+
+.widget {
+    margin: 50px auto;
+    padding: 100px 88px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 345px;
+    height: 280px;
+}
+
+#controls {
+    width: 500px;
+    margin: 50px auto;
+    padding: 32px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#controls input {
+    width: 150px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+#controls button {
+    width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #4e75ff;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+
+#controls button:nth-child(3) {
+    margin-left: 16px;
+    background: #ff4e4e;
+}
+
+#controls button:nth-child(2):hover {
+    background: #6C8CFF;
+}
+#controls button:nth-child(3):hover {
+    background: #ff7070;
+}
+#boxes {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
