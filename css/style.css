@@ -125,6 +125,10 @@ input {
     width: 345px;
     height: 280px;
 }
+.widget p {
+    display: block;
+    height: 48px;
+}
 
 #controls {
     width: 500px;
